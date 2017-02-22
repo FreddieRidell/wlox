@@ -1,5 +1,6 @@
 import "os" for Process
 import "io" for File, Stdin
+import "./Scanner" for Scanner
 
 class Lox {
 	static main() {
@@ -47,5 +48,3 @@ class Lox {
 		System.print("[line %(line)] Error %(where): %(message)")
 	}
 }
-
-Lox.main()
